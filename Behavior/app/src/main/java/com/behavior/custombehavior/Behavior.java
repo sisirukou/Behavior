@@ -7,6 +7,9 @@ import android.support.design.widget.FloatingActionButton;
 import android.util.AttributeSet;
 import android.view.View;
 
+/**
+ * 自定义Behavior的一些方法
+ */
 public class Behavior extends FloatingActionButton.Behavior{
 
     public Behavior(Context context, AttributeSet attrs){
