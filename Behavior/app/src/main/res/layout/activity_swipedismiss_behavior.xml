@@ -1,0 +1,37 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<android.support.v7.widget.Toolbar-->
+            <!--android:id="@+id/toolBar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/dp50"-->
+            <!--app:title="SwipeDismissBehaviorActivity"-->
+            <!--app:titleTextColor="@color/cffffff"/>-->
+    <!--</android.support.design.widget.AppBarLayout>-->
+
+    <LinearLayout
+        android:id="@+id/llSheetControl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:background="@color/c999999">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="向右滑动删除"/>
+
+
+    </LinearLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
